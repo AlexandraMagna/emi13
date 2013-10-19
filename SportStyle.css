@@ -7,14 +7,6 @@ zur Bilschirmanzeige
 body{background-color: navy;}
 
 /*#HeaderVorlage*/
-img.Titelbild
-{
-position:relative;
-width:1280px;
-height:200px;
-background:url(DennisHeader1.jpg);
-float: left;
-}
 img.Klettererbild
 {
 position:absolute;
@@ -51,7 +43,7 @@ border-color: navy;
   width:70%;
   float:right;
 }
-#ZeilenVorlage
+.ZeilenVorlage
 {
  border-width: 2px; 
  border-style: solid; 
