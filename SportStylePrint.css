@@ -1,0 +1,99 @@
+/*========================================================================
+Sportwebsite von Alexandra Wirth und Dennis Koppenhagen
+zum Drucken
+========================================================================*/
+@media print
+{
+
+body{background-color: white;}
+
+/*eine Box*/
+div
+{
+border-width: 1px; 
+border-style: solid; 
+border-color: white;
+}
+#menuFensterLinks
+{
+  background-color:white;
+  height:90%;
+  width:25%;
+  float:left;
+}
+#FensterRechts
+{
+  background-color:white;
+  height:90%;
+  width:70%;
+  float:right;
+}
+#ZeilenVorlage
+{
+ border-width: 2px; 
+ border-style: solid; 
+ border-color: black;
+ background-color: white;
+ height:100px;
+ width:84%;
+ padding: 10px;
+ margin: 50px;
+ float:left;
+}
+#Fussnote
+{
+  background-color:grey;
+  /*text-align:left;*/
+  height:10%;
+  width:100%;
+  float:left;
+}
+table
+{
+ border-collapse:separate;
+ float: left;
+ empty-cells:hide;
+}
+
+/*Text fuer ueberschrift*/
+
+p
+{
+  font-family:"Times New Roman",Times,serif;
+  font-style: "bold";
+  /*background-color: white;*/
+}
+p.Headliner
+{
+  position:absolute;
+  padding-left: 20px;
+  font-size:100%;
+}
+p.Sportarten
+{
+  font-size:150%;
+}
+p.Auswahl
+{
+  font-size:125%;
+}
+
+th
+{
+  font-family:"Times New Roman",Times,serif;
+  font-style: "bold";
+  font-size:150%;
+}
+td
+{
+  font-family:"Times New Roman",Times,serif;
+  font-style: "bold";
+  font-size:100%;
+ 
+}
+p.Fussnotentext
+{
+  padding-left: 20px;
+  font-size:70%;
+}
+}
